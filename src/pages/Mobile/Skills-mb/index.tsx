@@ -24,11 +24,11 @@ const SkillsMobile = () => {
       </Typography>
       <Box display="flex" gap={5} flexDirection="column" marginTop="25px">
         {showDescription ? (
-          <Typography variant="h4" textAlign="justify" fontSize="18x">
+          <Typography variant="body1" textAlign="justify" fontSize="14px">
             {skillDescription}
           </Typography>
         ) : (
-          <Typography variant="h4" textAlign="justify" fontSize="20px">
+          <Typography variant="h5" textAlign="justify" fontSize="20px">
             * Clique em cima de alguma habilidade para ler a descrição *
           </Typography>
         )}
