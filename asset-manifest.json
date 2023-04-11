@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a09d9822.css",
+    "main.js": "/portfolio/static/js/main.6da70415.js",
+    "static/media/parallax.gif": "/portfolio/static/media/parallax.742d43e8f5e8bc1eb95e.gif",
+    "static/media/movies.gif": "/portfolio/static/media/movies.bce9b6882e71c848299e.gif",
+    "static/media/gallery.gif": "/portfolio/static/media/gallery.8b35e8d5f2ba46a2b250.gif",
+    "static/media/expense.gif": "/portfolio/static/media/expense.ff9757880a50f333a378.gif",
+    "static/media/rpg.gif": "/portfolio/static/media/rpg.5cd1489ea9879982f2c4.gif",
+    "static/media/profile.png": "/portfolio/static/media/profile.f8a47bc516ad4ec4fad4.png",
+    "static/media/buscador.gif": "/portfolio/static/media/buscador.9d7072eedc4bb5d46f55.gif",
+    "static/media/form.gif": "/portfolio/static/media/form.61d8e1faa41e5793dc18.gif",
+    "static/media/curriculo.pdf": "/portfolio/static/media/curriculo.7094851cf21456587117.pdf",
+    "static/media/todo.gif": "/portfolio/static/media/todo.232d71bcd352ccf16c22.gif",
+    "static/media/counter.gif": "/portfolio/static/media/counter.d8a25645807162d1f5f2.gif",
+    "static/media/sql-icon.png": "/portfolio/static/media/sql-icon.86cdb54cc5fc9c392ebd.png",
+    "index.html": "/portfolio/index.html",
+    "main.a09d9822.css.map": "/portfolio/static/css/main.a09d9822.css.map",
+    "main.6da70415.js.map": "/portfolio/static/js/main.6da70415.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a09d9822.css",
+    "static/js/main.6da70415.js"
+  ]
+}
