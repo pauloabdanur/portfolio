@@ -45,20 +45,32 @@ const Skills = () => {
         </Box>
         {showDescription ? (
           <Typography
-            variant="h4"
+            variant="h5"
             textAlign="justify"
             sx={{
-              fontSize: { sm: '16px', md: '26px', lg: '30px', xl: '34px' },
+              fontSize: {
+                xs: '14px',
+                sm: '16px',
+                md: '26px',
+                lg: '30px',
+                xl: '34px',
+              },
             }}
           >
             {skillDescription}
           </Typography>
         ) : (
           <Typography
-            variant="h4"
+            variant="h5"
             textAlign="justify"
             sx={{
-              fontSize: { sm: '20px', md: '26px', lg: '30px', xl: '34px' },
+              fontSize: {
+                xs: '18px',
+                sm: '20px',
+                md: '26px',
+                lg: '30px',
+                xl: '34px',
+              },
             }}
           >
             * Passe o mouse em cima de alguma habilidade para ler a descrição *
