@@ -25,14 +25,14 @@ export const slideTop = keyframes`
   }
 `;
 
-export const Link = styled.a<{ isSmall: boolean }>`
+export const Link = styled.a`
   display: inline-block;
   color: #fff;
   text-decoration: none;
   border-radius: 20px;
   padding: 6px 15px;
   font-size: 25px;
-  animation: ${(props) => !props.isSmall ?? `${slideTop} 1s ease forwards`};
+  animation: ${slideTop} 1s ease forwards;
 
   &:hover {
     color: #0ef;

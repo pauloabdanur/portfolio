@@ -65,28 +65,19 @@ export const zoomIn = keyframes`
 export const MyText = styled(Typography)``;
 
 export const MyContainer = styled(Container)`
-  position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 30px 10%;
 `;
 
 export const ProfileImg = styled.img`
-  max-width: 450px;
-  margin-right: -20px;
+  margin-bottom: 20px;
+  max-width: 300px;
   opacity: 0;
   animation: ${zoomIn} 1s ease forwards;
   animation-delay: 1s;
-  @media (max-width: 1200px) {
-    width: 300px;
-  }
-  @media (max-width: 900px) {
-    max-width: 250px;
-  }
-  @media (max-width: 700px) {
-    max-width: 200px;
-  }
 `;
 
 export const SocialLinks = styled.a`
@@ -103,18 +94,6 @@ export const SocialLinks = styled.a`
   height: 40px;
   font-size: 20px;
   margin: 30px 15px 30px 0;
-
-  @media (max-width: 1200px) {
-    font-size: 16px;
-    width: 30px;
-    height: 30px;
-  }
-
-  @media (max-width: 900px) {
-    font-size: 14px;
-    width: 20px;
-    height: 20px;
-  }
 
   transition: 0.5s ease;
   opacity: 0;
@@ -139,19 +118,6 @@ export const MyButton = styled(Button)`
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 600;
-
-  @media (max-width: 1200px) {
-    padding: 10px 24px;
-    box-shadow: 0 0 8px #0ef;
-    font-size: 14px;
-    margin-top: 5px;
-  }
-
-  @media (max-width: 900px) {
-    padding: 8px 20px;
-    box-shadow: 0 0 8px #0ef;
-    font-size: 12px;
-  }
 
   &:hover {
     background: #0ef;

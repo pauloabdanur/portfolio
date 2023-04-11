@@ -20,7 +20,7 @@ export const otherProjects: Project[] = [
     imageUrl: photoGallery,
     techs: ['React', 'TypeScript', 'Styled Components', 'Firebase', 'uuid'],
     githubLink: 'https://github.com/pauloabdanur/photo-gallery',
-    demoLink: 'none',
+    demoLink: 'https://github.com/pauloabdanur/photo-gallery',
   },
   {
     name: 'Redux Counter',
