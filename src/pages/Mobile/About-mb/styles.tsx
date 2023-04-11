@@ -3,7 +3,7 @@ import { Container } from '@mui/material';
 
 export const Wrapper = styled(Container)`
   display: flex;
-  max-height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   margin-top: 15%;
   padding: 0 10%;

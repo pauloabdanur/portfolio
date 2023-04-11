@@ -12,7 +12,7 @@ export const MyContainer = styled(Container)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: 100vh;
+  min-height: 100vh;
   padding: 0 5%;
   padding-bottom: 20%;
 `;

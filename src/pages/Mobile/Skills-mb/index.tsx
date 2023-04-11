@@ -19,21 +19,21 @@ const SkillsMobile = () => {
 
   return (
     <MyContainer id="skills">
-      <Typography variant="h1" textAlign="center" fontSize="80px">
+      <Typography variant="h1" textAlign="center" fontSize="55px">
         Habilidades
       </Typography>
       <Box display="flex" gap={5} flexDirection="column" marginTop="25px">
         {showDescription ? (
-          <Typography variant="h4" textAlign="justify" fontSize="24px">
+          <Typography variant="h4" textAlign="justify" fontSize="18x">
             {skillDescription}
           </Typography>
         ) : (
-          <Typography variant="h4" textAlign="justify" fontSize="30px">
+          <Typography variant="h4" textAlign="justify" fontSize="20px">
             * Clique em cima de alguma habilidade para ler a descrição *
           </Typography>
         )}
         <Box>
-          <ImageList cols={4} gap={10} sx={{ overflowY: 'hidden' }}>
+          <ImageList cols={3} gap={10} sx={{ overflowY: 'hidden' }}>
             {mySkills.map((skill: ISkills, index) => (
               <ImageListItem key={skill.iconUrl}>
                 <Box>

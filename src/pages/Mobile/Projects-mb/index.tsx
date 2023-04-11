@@ -34,15 +34,15 @@ const ProjectsMobile = () => {
       <Typography
         variant="h1"
         marginBottom="10px"
-        fontSize="80px"
+        fontSize="60px"
         textAlign="center"
       >
         Meus Projetos
       </Typography>
-      <Typography variant="h5" marginBottom="30px" fontSize="25px">
+      <Typography variant="h5" marginBottom="30px" fontSize="18px">
         Clique na imagem para testar a aplicação
       </Typography>
-      <ImageList cols={3} gap={20} sx={{ overflowY: 'visible' }}>
+      <ImageList cols={2} gap={10} sx={{ overflowY: 'visible' }}>
         {visibleProjects.map((project: Project) => (
           <ImageListItem
             key={project.imageUrl}

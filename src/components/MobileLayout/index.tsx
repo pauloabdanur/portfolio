@@ -5,5 +5,9 @@ export type MobileLayoutProps = {
 };
 
 export const MobileLayout: React.FC<MobileLayoutProps> = ({ children }) => {
-  return <Box sx={{ backgroundColor: '#1f242d' }}>{children}</Box>;
+  return (
+    <Box min-height="100vh" sx={{ backgroundColor: '#1f242d' }}>
+      {children}
+    </Box>
+  );
 };

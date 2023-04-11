@@ -73,8 +73,9 @@ export const MyContainer = styled(Container)`
 `;
 
 export const ProfileImg = styled.img`
+  padding-top: 15px;
   margin-bottom: 20px;
-  max-width: 300px;
+  max-width: 250px;
   opacity: 0;
   animation: ${zoomIn} 1s ease forwards;
   animation-delay: 1s;

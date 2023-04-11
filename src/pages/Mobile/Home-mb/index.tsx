@@ -16,20 +16,41 @@ import curriculo from '../../../assets/archive/curriculo.pdf';
 const HomeMobile = () => {
   return (
     <MyContainer id="home">
-      <Box id="homeContent">
+      <Box
+        id="homeContent"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+      >
         <Box display="flex" justifyContent="center">
           <ProfileImg src={profilePic} alt="" />
         </Box>
-        <MyText variant="h3" fontWeight="700" fontSize="40px">
+        <MyText
+          variant="h4"
+          fontWeight="600"
+          fontSize="30px"
+          textAlign="center"
+        >
           Olá! Meu nome é
         </MyText>
-        <Typography variant="h2" fontWeight="700">
+        <Typography variant="h3" fontWeight="600" textAlign="center">
           Paulo Abdanur
         </Typography>
-        <Typography variant="h4" fontWeight="700">
+        <Typography
+          variant="h4"
+          fontWeight="600"
+          fontSize="30px"
+          textAlign="center"
+        >
           E sou um <Job>Desenvolvedor FrontEnd</Job>
         </Typography>
-        <Typography variant="body1" fontWeight="500" fontSize="20px">
+        <Typography
+          variant="body1"
+          fontWeight="400"
+          fontSize="16px"
+          marginTop="5px"
+          textAlign="center"
+        >
           Formado em Ciência da Computação desde 2017 e sempre procurando me
           aprimorar e aprender novas tecnologias!
         </Typography>
