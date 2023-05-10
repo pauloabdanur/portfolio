@@ -8,6 +8,10 @@ import {
   Job,
   ProfileImg,
   SocialLinks,
+  slideBottom,
+  slideTop,
+  slideRight,
+  slideLeft,
 } from './styles';
 
 import profilePic from '../../../assets/images/profile.png';
@@ -30,10 +34,24 @@ const HomeMobile = () => {
           fontWeight="600"
           fontSize="30px"
           textAlign="center"
+          sx={{
+            opacity: 0,
+            animation: `${slideTop} 1s ease forwards`,
+            animationDelay: '0.7s',
+          }}
         >
           Olá! Meu nome é
         </MyText>
-        <Typography variant="h3" fontWeight="600" textAlign="center">
+        <Typography
+          variant="h3"
+          fontWeight="600"
+          textAlign="center"
+          sx={{
+            opacity: 0,
+            animation: `${slideRight} 1s ease forwards`,
+            animationDelay: '1s',
+          }}
+        >
           Paulo Abdanur
         </Typography>
         <Typography
@@ -41,6 +59,11 @@ const HomeMobile = () => {
           fontWeight="600"
           fontSize="30px"
           textAlign="center"
+          sx={{
+            opacity: 0,
+            animation: `${slideBottom} 1s ease forwards`,
+            animationDelay: '0.7s',
+          }}
         >
           E sou um <Job>Desenvolvedor FrontEnd</Job>
         </Typography>
@@ -50,6 +73,11 @@ const HomeMobile = () => {
           fontSize="16px"
           marginTop="5px"
           textAlign="center"
+          sx={{
+            opacity: 0,
+            animation: `${slideLeft} 1s ease forwards`,
+            animationDelay: '1s',
+          }}
         >
           Formado em Ciência da Computação desde 2017 e sempre procurando me
           aprimorar e aprender novas tecnologias!
