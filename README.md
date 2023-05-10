@@ -6,7 +6,7 @@ This is my personal portfolio, where you can find all the information about myse
 
 You can see how it works here!
 
-* In progress *
+[http://pauloabdanur.dev](http://pauloabdanur.dev)
 
 ## Steps to run the project
 
