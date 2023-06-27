@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a09d9822.css",
-    "main.js": "/static/js/main.1e499a3a.js",
+    "main.js": "/static/js/main.83450ce3.js",
     "static/media/parallax.gif": "/static/media/parallax.742d43e8f5e8bc1eb95e.gif",
     "static/media/movies.gif": "/static/media/movies.bce9b6882e71c848299e.gif",
     "static/media/codeleap.gif": "/static/media/codeleap.2e444e2cd34717924190.gif",
@@ -9,18 +9,18 @@
     "static/media/expense.gif": "/static/media/expense.ff9757880a50f333a378.gif",
     "static/media/rpg.gif": "/static/media/rpg.5cd1489ea9879982f2c4.gif",
     "static/media/profile.png": "/static/media/profile.f8a47bc516ad4ec4fad4.png",
+    "static/media/curriculo.pdf": "/static/media/curriculo.cde2eba7d59b56940647.pdf",
     "static/media/buscador.gif": "/static/media/buscador.9d7072eedc4bb5d46f55.gif",
     "static/media/form.gif": "/static/media/form.61d8e1faa41e5793dc18.gif",
-    "static/media/curriculo.pdf": "/static/media/curriculo.7094851cf21456587117.pdf",
     "static/media/todo.gif": "/static/media/todo.232d71bcd352ccf16c22.gif",
     "static/media/counter.gif": "/static/media/counter.d8a25645807162d1f5f2.gif",
     "static/media/sql-icon.png": "/static/media/sql-icon.86cdb54cc5fc9c392ebd.png",
     "index.html": "/index.html",
     "main.a09d9822.css.map": "/static/css/main.a09d9822.css.map",
-    "main.1e499a3a.js.map": "/static/js/main.1e499a3a.js.map"
+    "main.83450ce3.js.map": "/static/js/main.83450ce3.js.map"
   },
   "entrypoints": [
     "static/css/main.a09d9822.css",
-    "static/js/main.1e499a3a.js"
+    "static/js/main.83450ce3.js"
   ]
 }
