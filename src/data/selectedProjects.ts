@@ -1,5 +1,5 @@
 import { Project } from '../types/Project';
-import buscadorGif from '../assets/gifs/buscador.gif';
+import agendamentos from '../assets/gifs/agendamentos.gif';
 import expense from '../assets/gifs/expense.gif';
 import codeLeap from '../assets/gifs/codeleap.gif';
 import complexForm from '../assets/gifs/form.gif';
@@ -8,6 +8,24 @@ import movieGallery from '../assets/gifs/movies.gif';
 import parallax from '../assets/gifs/parallax.gif';
 
 export const selectedProjects: Project[] = [
+  {
+    name: 'Agendamentos',
+    description:
+      'Aplicação utilizada para controle de agendamentos de um salão de beleza, você pode criar um novo usuário e posteriormente seus agendamentos, informando o nome do cliente, hora e data. Depois é possível visualizar os agendamentos do usuário selecionando a data desejada no calendário.',
+    imageUrl: agendamentos,
+    techs: [
+      'React',
+      'NodeJS',
+      'TypeScript',
+      'Axios',
+      'React Hook Form',
+      'Yup',
+      'React Router Dom',
+      'Styled Components',
+    ],
+    githubLink: 'https://github.com/pauloabdanur/Hero-Hairdresses-Client',
+    demoLink: 'https://hero-hairdresses.vercel.app/',
+  },
   {
     name: 'Expense Tracker',
     description:
@@ -58,14 +76,5 @@ export const selectedProjects: Project[] = [
     techs: ['React', 'TypeScript', 'Styled Components', 'React Hooks'],
     githubLink: 'https://github.com/pauloabdanur/Parallax-template',
     demoLink: 'https://pauloabdanur.github.io/Parallax-template/',
-  },
-  {
-    name: 'Buscador de CEP',
-    description:
-      "Aplicação utilizada para a busca de CEP's de todo o Brasil utilizando a API ViaCEP.",
-    imageUrl: buscadorGif,
-    techs: ['React', 'React Icons', 'Axios', 'REST API'],
-    githubLink: 'https://github.com/pauloabdanur/buscador-cep',
-    demoLink: 'https://pauloabdanur.github.io/buscador-cep/',
   },
 ];

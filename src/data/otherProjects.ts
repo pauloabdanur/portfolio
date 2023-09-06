@@ -1,6 +1,7 @@
 import { Project } from '../types/Project';
 import todoGif from '../assets/gifs/todo.gif';
 import photoGallery from '../assets/gifs/gallery.gif';
+import buscadorGif from '../assets/gifs/buscador.gif';
 import reduxCounter from '../assets/gifs/counter.gif';
 import rpgTemplate from '../assets/gifs/rpg.gif';
 
@@ -22,6 +23,15 @@ export const otherProjects: Project[] = [
     techs: ['React', 'TypeScript', 'Styled Components', 'Firebase', 'uuid'],
     githubLink: 'https://github.com/pauloabdanur/photo-gallery',
     demoLink: 'https://github.com/pauloabdanur/photo-gallery',
+  },
+  {
+    name: 'Buscador de CEP',
+    description:
+      "Aplicação utilizada para a busca de CEP's de todo o Brasil utilizando a API ViaCEP.",
+    imageUrl: buscadorGif,
+    techs: ['React', 'React Icons', 'Axios', 'REST API'],
+    githubLink: 'https://github.com/pauloabdanur/buscador-cep',
+    demoLink: 'https://pauloabdanur.github.io/buscador-cep/',
   },
   {
     name: 'Redux Counter',
